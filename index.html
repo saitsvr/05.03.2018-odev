@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+	<title>05.03.2018 Ödev</title>
+	<link rel="stylesheet" type="text/css" href="index.css">
+	<link href="https://fonts.googleapis.com/css?family=Mina" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Krona+One" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Nosifer" rel="stylesheet">
+</head>
+<script type="text/javascript">
+ 	var adsoyad=prompt("Adını soyadını gir : ")
+	var girilensayi=prompt("alta yuvarlanacak sayıyı gir :");
+	var yuvarlanansayi=Math.floor(girilensayi);
+	var girilensayi2=prompt("Üste yuvarlanacak sayıyı gir :");
+	var yuvarlanansayi2=Math.round(girilensayi2);
+	var karekokgir=prompt("Karekökü alınacak sayıyı gir :")
+	var karekok=Math.sqrt(karekokgir);
+	var pisayi=Math.PI;
+	var rasgelegir=prompt("Rasgele bir sayı gir :")
+	var rasgele=Math.random(rasgelegir);
+	var zaman=new Date();
+	/*
+	var yil = new Date();
+	var year = yil.getYear();
+	*/
+	var saat=zaman.getHours();
+	var dakika=zaman.getMinutes();
+	var saniye=zaman.getSeconds();
+
+</script>
+<body bgcolor="grey">
+
+	<div id="wrapper3">
+	<div id="article3">
+		<script type="text/javascript">
+			document.write(adsoyad);
+		</script>
+		<a href="https://github.com/saitsvr"><img src="git.png"></a>
+	</div>
+	<div id="header3">
+	<div id="headeror1">Matematik Fonksiyonları</div>
+	<div id="headeror2">
+	      <h1 align="center">Alta Yuvarla</h1>
+		<script type="text/javascript">
+				document.write("Alta yuvarlanmiş hali : "+yuvarlanansayi);
+		</script>
+	</div>
+	<div id="headeror3">
+		<h1 align="center">Üste Yuvarla</h1>
+		<script type="text/javascript">
+				document.write("Üste yuvarlanmiş hali : "+yuvarlanansayi2);
+		</script>
+	</div>
+	<div id="headeror4">
+	<h1 align="center">Karekök</h1>
+		<script type="text/javascript">
+			document.write("Kök : "+karekok);
+		</script>
+	</div>
+	<div id="headeror5" align="center">
+	<h1 align="center">Pi Sayısı</h1>
+	<script type="text/javascript">
+		document.write(pisayi);
+	</script>
+	</div>
+	<div id="headeror6">
+		<h1 align="center">Rasgele Sayı</h1>
+		<script type="text/javascript">
+			document.write("Rasgele girilen sayı : "+rasgele);
+		</script>
+	</div>
+	</div>
+	<div id="header4">
+	<div id="headeror7">Date Fonksiyonları</div>
+	<div id="headeror8">
+		<h1 align="center">Ful Format</h1>
+		<script type="text/javascript">
+			document.write(zaman);
+		</script>
+	</div>
+	<div id="headeror9">
+		<h1 align="center">yıl</h1>
+	</div>
+	<div id="headeror10">
+		<h1 align="center">saat dakika saniye</h1>
+		<script type="text/javascript">
+		document.write("Saat : "+saat+":"+dakika+":"+saniye);
+		</script>
+	</div>
+	</div>
+	<div id="header5">
+	<div id="headeror11">
+		<img src="beyaz.jpg" onmouseover="alert('I am white hat');">
+	</div>
+	<div id="headeror12">
+		<img src="siyah.jpg" onmouseout="alert('I am black hat');">
+	</div>
+	<div id="headeror13">
+		<img src="gri.jpg" onclick="alert('I am grey hat')">
+	</div>
+	
+	</div>
+	</div>
+
+</body>
+</html>
